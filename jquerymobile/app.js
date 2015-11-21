@@ -35,5 +35,3 @@ localStorage.setItem("page","#step5");
 localStorage.setItem("page","#step6");
 });
                  
-
-}
