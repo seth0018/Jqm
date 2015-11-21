@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="ui-mobile">
+   <head>
+      <meta charset="UTF-8">
+      <title>mobile</title>
+      <link rel="stylesheet" href="themes/app.min.css" />
+      <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+       <script src="app.js"></script>
+      <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+   <body>
+      <div data-role="page" id="home" data-dom-cache="true">
+         <header data-role="header">
+            <h1>Shortcut to <em>Shred</em></h1>
+         </header>
+         <article data-role="content">
+            <ul data-role="listview">
+               <li>
+                  <a href="#welcome" class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-transition="flip">
+                     <h1>6 Steps To 6 Pack Abs</h1>
+                     <img src="http://www.2st.com.au/images/stories/2015/01/6-Packs-Abs.jpg"  height="100" width="100" alt="6 packs" />
+                     <p>Follow these simple steps to achieve the results you desire.</p>
+                  </a>
+               </li>
+            </ul>
+         </article>
+         <footer data-role="footer" data-position="fixed">
+            <nav data-role="navbar">
+               <ul>
+                  <li ><a href="#home" data-icon="home">Home</a></li>
+                  <li><a href="#aboutme" data-icon="info">About Me</a></li>
+               </ul>
+            </nav>
+         </footer>
+      </div>
+       
+       
+       
+       <!-----------------------------me------>
+        
+       
+        
+       
+      <!--home page------------------------------------------------------------------>
+      <div data-role="page" id="welcome" data-dom-cache="true">
+         <header data-role="header">
+            <h1>6 Steps To 6 Pack Abs</h1>
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+         </header>
+         <div align="center"  role="dialog" class="ui-content">
+            <h2>Welcome to Shortcut to <em>Shred</em></h2>
+            <p>This is a simple tutorial for people trying to lose weight and transform their body in a limited amount of time.</p>
+             
+           <a href="#step1" class="ui-shadow ui-btn ui-corner-all "  data-transition="pop" id="start">Start Shredding </a>
+         </div>
+         <footer data-role="footer" data-position="fixed">
+            <nav data-role="navbar">
+               <ul>
+                  <li ><a href="#home" data-icon="home">Home</a></li>
+                  <li><a href="#aboutme" data-icon="info">About Me</a></li>
+               </ul>
+            </nav>
+         </footer>
+      </div>
+       
+       
+      
+        
+       
+      <!--welcome page---------------------------------------------------------------->
+      <div id="step1" data-role="page"  data-dialog="true"   >
+         <header data-role="header">
+            <h1>Step 1 of 6</h1>
+            <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+         </header>
+         <article data-role="content" data-theme="a" role="main" class="ui-content ui-body-b">
+            <h1>Sleep at least 8 hours every night</h1>
+            <img src="http://thumbs.dreamstime.com/x/baby-sleep-asian-cute-dribbling-44142779.jpg" height="275px" width="450px"/>
+            <p>Sleep plays an important role in your physical health. For example, sleep is involved in healing and repair of your heart and blood vessels. Ongoing sleep deficiency is linked to an increased risk of heart disease, kidney disease, high blood pressure, diabetes, and stroke. </p>
+            <a href="#" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-disabled backP" data-theme="b">Back</a>
+            <a href="#step2" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+         </article>
+      </div>
+      <!------step1---------------------------------------------------------------->    
+      <div data-role="page" id="step2" data-dialog="true" data-dom-cache="true" >
+         <header data-role="header">
+            <h1>Step 2 of 6</h1>
+            <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+         </header>
+         <article data-role="content" data-theme="a" role="main" class="ui-content ui-body-b">
+            <h1>Avoid all types of fast foods</h1>
+            <img src="http://www.thetimesgazette.com/wp-content/uploads/2015/06/Trans-Fat-foods.jpg" alt="no sugar" height="275" width="450">
+            <p>Trans fats are a manufactured fat with no extra nutritional value. They’re considered so unhealthy that some countries have banned their use. Often found in fast food, trans fats are known to raise LDL cholesterol levels. That’s the undesirable kind of cholesterol. They can also lower HDL cholesterol, which is the so-called good cholesterol. Trans fats may also increase your risk of developing type 2 diabetes. - See more at: http://www.healthline.com/health/fast-food-effects-on-body#sthash.lMiD5mwX.dpuf</p>
+            <a href="#step1" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-enabled backP" data-theme="b">Back</a>
+            <a href="#step3" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+         </article>
+      </div>
+      <!-------step2 end-------------------------------------------->
+      <div data-role="page" id="step3" data-dialog="true"  data-dom-cache="true">
+         <header data-role="header">
+            <h1>Step 3 of 6</h1>
+            <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+         </header>
+         <article data-role="content" data-theme="a" role="main" class="ui-content ui-body-b">
+            <h1>Drink at least 2 litres of water everyday</h1>
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRG7WlvOkPxgp-R5HBCSkdrIlmaLhPDaeDcVymtIwRIO4lxeeRxng" alt="drink water" height="275" width="450"/>
+            <p> Your body is composed of about 60% water. The functions of these bodily fluids include digestion, absorption, circulation, creation of saliva, transportation of nutrients, and maintenance of body temperature.For years, dieters have been drinking lots of water as a weight loss strategy. While water doesn't have any magical effect on weight loss, substituting it for higher calorie beverages can certainly help.</p>
+            <a href="#step2" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-enabled backP" data-theme="b">Back</a>
+            <a href="#step4" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+         </article>
+      </div>
+      <!--step3end----------------------------------------------------------------->
+      <div data-role="page" id="step4" data-dialog="true" data-dom-cache="true" >
+         <header data-role="header">
+            <h1>Step 4 of 6</h1>
+            <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+         </header>
+         <article data-role="content" data-theme="a" role="main" class="ui-content ui-body-b">
+            <h1>Eat a Well-Balanced Diet</h1>
+            <img src="http://www.bbcgoodfood.com/sites/default/files/men-large.jpg" alt="well balanced diet" height="275" width="450"/>
+            <p>Eat a well balanced diet comprising of high quality sources of protein(eggs,chicken),carbohydrates(sweet potatoes),fats(avocados) with lots of vegetables and fruits.</p>
+            <a href="#step3" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-enabled backP" data-theme="b">Back</a>
+            <a href="#step5" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+         </article>
+      </div>
+      <!--step4end------------------------------------------------------------------->
+      <div data-role="page" id="step5" data-dialog="true" data-dom-cache="true" >
+         <header data-role="header">
+            <h1>Step 5 of 6</h1>
+            <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+         </header>
+         <article data-role="content" data-theme="a" role="main" class="ui-content ui-body-b">
+            <h1>Do HIIT Atleast 3 times a week</h1>
+            <img src="http://cdn.shopify.com/s/files/1/0170/5314/files/bodyweight-exercises.png?12280" alt="HIIT" height="275" width="450"/>
+            <p>High-intensity interval(HIIT) workouts are a great way to do a lot of work in a short amount of time.Making HIIT a part of your workout regimen will cause alterations in your metabolism, increasing your body's capacity to create and use energy. In other words, you'll burn fat more efficiently."</p>
+            <a href="#step4" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-enabled backP" data-theme="b">Back</a>
+            <a href="#step6" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+         </article>
+      </div>
+      <!--step5end------------------------------------------------------------------->
+      <div data-role="page" id="step6" data-dialog="true" data-dom-cache="true">
+         <header data-role="header">
+            <h1>Step 6 of 6</h1>
+            <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+         </header>
+         <article data-role="content" data-theme="a" role="main" class="ui-content ui-body-b">
+            <h1>Stick to the plan</h1>
+            <img src="http://engageyourfanbase.com/wp-content/uploads/2015/10/goal.jpg" alt="no sugar" height="275" width="450"/>
+            <p>Work hard and follow the previous steps to achieve the body of your dreams.</p>
+            <a href="#step5" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-enabled backP" data-theme="b">Back</a>
+            <a href="#" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP ui-state-disabled" data-theme="b">Next</a>
+         </article>
+      </div>
+       
+       
+       
+       
+       <div data-role="page" id="aboutme" >
+         <header data-role="header">
+            <h1>About me</h1>
+         </header>
+         
+            <ul>
+               <li>
+                   <a href="#home" data-icon="delete" data-iconpos="notext">Home</a>
+                     <h1>My Info.</h1>
+                     <img src="https://en.gravatar.com/userimage/94527117/fcadba63c3c2d8dd131457102666edbb.jpg?size=200"  height="300" width="350" alt="me" />
+                     <p>Hi my name is Rahul Sethi and i am a newbie developer learning to develop websites and apps.I am good/love the following things:
+                      <li> Html</li>
+                      <li> Css</li>
+                      <li>Gym</li>  
+                   <li>swimming</li></p>
+               </li>
+            </ul>
+       </div>
+       
+   </body>
+</html>
